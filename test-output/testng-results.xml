@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-29T15:45:51 IST" name="Default suite" finished-at="2020-03-29T15:51:24 IST" duration-ms="333159">
+    <groups>
+    </groups>
+    <test started-at="2020-03-29T15:45:51 IST" name="Default test" finished-at="2020-03-29T15:51:24 IST" duration-ms="333159">
+      <class name="com.newcrm.qa.Testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:45:51 IST" name="setup" finished-at="2020-03-29T15:46:44 IST" duration-ms="53003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FreeCRMTitleTest()[pri:1, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:46:44 IST" name="FreeCRMTitleTest" finished-at="2020-03-29T15:46:45 IST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeCRMTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:46:45 IST" name="tearDown" finished-at="2020-03-29T15:46:47 IST" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:46:47 IST" name="setup" finished-at="2020-03-29T15:47:26 IST" duration-ms="38487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FreeCRMLogoTest()[pri:2, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:47:26 IST" name="FreeCRMLogoTest" finished-at="2020-03-29T15:47:58 IST" duration-ms="32204" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/header/div/nav/div[2]/div/div[1]/div/a/svg/image"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'VIRENDER-KUMAR', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 949fdb0c9f1089baa4c6cb2ae44e5f47
+*** Element info: {Using=xpath, value=/html/body/div[1]/header/div/nav/div[2]/div/div[1]/div/a/svg/image}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/header/div/nav/div[2]/div/div[1]/div/a/svg/image"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'VIRENDER-KUMAR', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 949fdb0c9f1089baa4c6cb2ae44e5f47
+*** Element info: {Using=xpath, value=/html/body/div[1]/header/div/nav/div[2]/div/div[1]/div/a/svg/image}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+at com.newcrm.qa.pages.LoginPage.ValidateFreeCRMLogo(LoginPage.java:44)
+at com.newcrm.qa.Testcases.LoginPageTest.FreeCRMLogoTest(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeCRMLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:47:58 IST" name="tearDown" finished-at="2020-03-29T15:48:15 IST" duration-ms="16455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:48:15 IST" name="setup" finished-at="2020-03-29T15:49:04 IST" duration-ms="49381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FreeCRMLoginTest()[pri:3, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:49:04 IST" name="FreeCRMLoginTest" finished-at="2020-03-29T15:51:22 IST" duration-ms="138078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeCRMLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newcrm.qa.Testcases.LoginPageTest@3c9d0b9d]" started-at="2020-03-29T15:51:22 IST" name="tearDown" finished-at="2020-03-29T15:51:24 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newcrm.qa.Testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

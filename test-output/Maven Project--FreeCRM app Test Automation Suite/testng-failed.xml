@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maven Project--FreeCRM app Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FreeCRMNew App Test(failed)">
+    <classes>
+      <class name="com.newcrm.qa.Testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="FreeCRMLogoTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.newcrm.qa.Testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- FreeCRMNew App Test(failed) -->
+</suite> <!-- Failed suite [Maven Project-FreeCRM app Test Automation Suite] -->
