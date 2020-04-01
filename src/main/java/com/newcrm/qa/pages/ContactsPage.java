@@ -48,6 +48,6 @@ public class ContactsPage extends TestBase
 		FirstNameTextbox.sendKeys("Viru");
 		LastNameTextbox.sendKeys("Singh");
 		CompanyNameTextbox.sendKeys("NIIT");
-		SaveBtn.click();
+		//SaveBtn.click();
 	}	
 }
